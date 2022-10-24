@@ -1,0 +1,147 @@
+/* Styling head */
+.header-styling {
+    padding: 60px;
+    text-align: center;
+    background: #e0b3f1;
+    height: auto;
+
+}
+
+/* Styling page title */
+.page-title {
+    margin-top: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 8px #ae7dc0;
+    width: 100%;
+    object-position: center;
+}
+
+/* Resizing logo */
+.logo img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 150px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/* Styling search bar */
+.search-bar form {
+    background-color: #ea9ab2;
+    width: 386px;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 263px;
+    left: 1000px;
+
+}
+
+.search-bar input {
+    all: unset;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.search-bar button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+
+}
+
+/* Styling table  */
+table {
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 245px;
+    ;
+
+}
+
+td {
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+td img {
+    width: auto;
+    height: 50px;
+    padding-top: 31px;
+
+}
+
+.table-button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #CCD5AE;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.table-button:hover {
+    background-color: #9da388;
+    transform: translateY(-2px);
+}
+
+.back-button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #c592e2;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 140px;
+    margin-bottom: 20px;
+    margin: 50px;
+    position: absolute;
+    left: 45px;
+    bottom: 210px;
+    ;
+
+}
+
+.back-button:hover {
+    background-color: #9961b9;
+    transform: translateY(-2px);
+}
+
+
+
+.footer {
+    background-color: #e99db5;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+.social-midia p {
+    margin-bottom: 10px;
+}

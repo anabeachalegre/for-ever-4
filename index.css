@@ -1,0 +1,121 @@
+/* Styling head */
+.header-styling {
+    padding: 60px;
+    text-align: center;
+    background: #e0b3f1;
+    height: auto;
+
+}
+
+/* Styling page title */
+.page-title {
+    margin-top: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 8px #ae7dc0;
+    width: 100%;
+    object-position: center;
+}
+
+/* Resizing logo */
+.logo img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 150px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/* Styling page main context */
+.first-article {
+    padding-top: 60px;
+    background-color: #b3dee2;
+    height: 200px;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+/* Styling Main-Text-1 */
+.main-text-1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+
+}
+
+.main-text-list {
+    text-align: center;
+}
+
+.main-text-list ol {
+    list-style-type: decimal;
+}
+
+.main-text-list li {
+    text-align: justify;
+    margin-left: 43%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.effect-phrase {
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.second-article {
+    text-align: center;
+    background-color: #eaf2d7;
+    padding-top: 60px;
+    height: 461px;
+    width: 100%;
+
+}
+
+.main-text-2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #CCD5AE;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 64px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #9da388;
+    transform: translateY(-2px);
+}
+
+.footer {
+    background-color: #e99db5;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+.social-midia p {
+    margin-bottom: 10px;
+}
